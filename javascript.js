@@ -1,3 +1,4 @@
+'use strict';
 window.onload = () => {
     state = true;
     mainLink = document.querySelector("#MainLink");
@@ -28,7 +29,7 @@ window.onload = () => {
             document.body.style.setProperty(
                 "--M",
                 "calc(" + (mainOff + 45) + "px + 48px)"
-                );
+            );
             document.querySelector("#PresentLink").style.color = "#000";
             document.querySelector("#MainLink").style.color = "#fff";
             presentPage.style.marginLeft = "-100vw"
