@@ -27,7 +27,7 @@ window.onload = () => {
             document.body.style.setProperty("--W", presentOff + 30 + "px");
             document.body.style.setProperty(
                 "--M",
-                "calc(" + (mainOff + 43) + "px + 48px)"
+                "calc(" + (mainOff + 45) + "px + 48px)"
                 );
             document.querySelector("#PresentLink").style.color = "#000";
             document.querySelector("#MainLink").style.color = "#fff";
