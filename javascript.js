@@ -1,4 +1,5 @@
 'use strict';
+state = true;
 window.onload = () => {
     state = true;
     mainLink = document.querySelector("#MainLink");
