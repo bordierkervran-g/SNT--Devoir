@@ -3,9 +3,13 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 #avatar {
-    position: absolute;
-    right: 0;
     height: 75%;
+}
+
+header {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
 }
 
 section {

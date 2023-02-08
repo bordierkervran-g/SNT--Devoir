@@ -6,10 +6,12 @@ window.onload = () => {
     let mainPage = document.getElementById("me");
     let presentPage = document.getElementById("present");
     mainLink.addEventListener("click", () => {
+        window.scrollTo({top: 0, behavior: 'smooth'});
         state = true;
         actualise();
     });
     presentLink.addEventListener("click", () => {
+        window.scrollTo({top: 0, behavior: 'smooth'});
         state = false;
         actualise();
     });
