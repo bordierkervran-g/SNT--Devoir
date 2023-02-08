@@ -1,7 +1,6 @@
 'use strict';
-state = true;
 window.onload = () => {
-    state = true;
+    var state = true;
     mainLink = document.querySelector("#MainLink");
     presentLink = document.querySelector("#PresentLink");
     mainPage = document.getElementById("me");
