@@ -6,12 +6,10 @@ window.onload = () => {
     let mainPage = document.getElementById("me");
     let presentPage = document.getElementById("present");
     mainLink.addEventListener("click", () => {
-        window.scrollTo({top: 0, behavior: 'smooth'});
         state = true;
         actualise();
     });
     presentLink.addEventListener("click", () => {
-        window.scrollTo({top: 0, behavior: 'smooth'});
         state = false;
         actualise();
     });
@@ -19,6 +17,8 @@ window.onload = () => {
     function actualise() {
         let mainOff = document.querySelector("#MainLink").offsetWidth;
         let presentOff = document.querySelector("#PresentLink").offsetWidth;
+        mainPage.contentWindow.scrollTo({top: 0, behavior: 'smooth'});
+        presentPage.contentWindow.scrollTo({top: 0, behavior: 'smooth'});
         if (state) {
             document.body.style.setProperty("--W", mainOff + 30 + "px");
             document.body.style.setProperty("--M", 48 + 15 + "px");
