@@ -28,6 +28,8 @@ section {
 section img {
     flex: 1;
     object-fit: cover;
+    border-right: 5px #3d6e8f solid;
+    border-radius: 0 50px 0px 0;
 }
 
 section div {
@@ -37,10 +39,16 @@ section div {
 }
 
 section div h1 {
-    border-bottom: #aaa 2px solid;
+    border-bottom: #3d6e8f 2px dotted;
 }
 
 section div p {
     overflow-y: scroll;
     overflow-x: hidden;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+section div p::-webkit-scrollbar {
+    display: none;
 }
