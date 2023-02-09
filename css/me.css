@@ -35,3 +35,12 @@ section div {
     display: flex;
     flex-direction: column;
 }
+
+section div h1 {
+    border-bottom: #aaa 2px solid;
+}
+
+section div p {
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
