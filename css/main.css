@@ -67,8 +67,3 @@ iframe {
     width: 100vw;
     transition: all .2s;
 }
-
-.animStop * {
-    transition: none !important;
-    animation: none !important;
-}

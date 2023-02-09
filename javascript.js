@@ -1,8 +1,6 @@
 'use strict';
 window.onload = () => {
-    var resizeTimeout;
     var state = true;
-    var iframes = document.getElementsByName('iframe');
     let mainLink = document.querySelector("#MainLink");
     let presentLink = document.querySelector("#PresentLink");
     let mainPage = document.getElementById("me");
@@ -40,16 +38,4 @@ window.onload = () => {
             mainPage.style.opacity = 0;
         }
     };
-    function stopRezize() {
-        for(let i = 0; i< iframes.length; i++) {
-            iframes[i].elem.classList.remove('animStop');
-        }
-    }
-    window.onresize = () => {
-        for(let i = 0; i< iframes.length; i++) {
-            iframes[i].elem.classList.add('animStop');
-        }
-        clearTimeout(resizeTimeout);
-        resizeTimeout = setTimeout(stopRezize, 100);
-    }
 };
