@@ -68,6 +68,7 @@ iframe {
     transition: width .4s;
 }
 
-.animStop {
+.animStop * {
     transition: none !important;
+    animation: none !important;
 }

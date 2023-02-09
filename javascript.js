@@ -45,7 +45,6 @@ window.onload = () => {
             iframes[i].elem.classList.remove('animStop');
         }
     }
-
     window.onresize = () => {
         for(let i = 0; i< iframes.length; i++) {
             iframes[i].elem.classList.add('animStop');
