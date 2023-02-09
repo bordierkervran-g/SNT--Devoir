@@ -65,5 +65,5 @@ span:not(.cursor) {
 
 iframe {
     width: 100vw;
-    transition: all 0.4s 0.2s
+    transition: width .4s;
 }
