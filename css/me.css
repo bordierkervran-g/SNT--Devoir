@@ -26,14 +26,12 @@ section {
 }
 
 section img {
-    flex: 1;
-    object-fit: cover;
+    object-fit: contain;
     border-right: 5px #3d6e8f solid;
     border-radius: 0 50px 0px 0;
 }
 
 section div {
-    flex: 6;
     display: flex;
     flex-direction: column;
 }
@@ -51,4 +49,10 @@ section div p {
 
 section div p::-webkit-scrollbar {
     display: none;
+}
+
+@media (max-width: 700px) {
+    section {
+        flex-direction: row;
+    }
 }
