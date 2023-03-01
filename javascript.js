@@ -54,6 +54,7 @@ window.onload = () => {
         document.querySelector("#PresentLink").style.color = "#000";
         document.querySelector("#MainLink").style.color = "#fff";
         presentPage.style.marginLeft = "-100vw";
+        mainPage.style.zIndex = -1;
         mainPage.style.opacity = 0;
     }
 };
