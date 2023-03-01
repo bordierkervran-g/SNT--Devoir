@@ -56,6 +56,7 @@ section div p::-webkit-scrollbar {
     section {
         flex-direction: column;
         border: none;
+        height: auto;
     }
     section div {
         border: 2px #eee solid;
