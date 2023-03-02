@@ -1,3 +1,10 @@
 body {
     background-color: #424242ff;
+    color: #eee;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+code {
+    padding: 5px;
+    background: #0d1117;
 }
