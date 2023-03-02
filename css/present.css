@@ -9,3 +9,7 @@ code {
     background: #0d1117;
     border-radius: 5px;
 }
+
+pre {
+    margin: 0;
+}
