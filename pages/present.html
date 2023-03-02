@@ -13,13 +13,13 @@
         <img src="../medias/snake.jpg" />
         <p>Le code fonctionne avec les librairies <code>pygame</code> <code>sys</code> et <code>random</code></p>
         <div class="highlight">
-            <pre><span class="kn">import</span> <span class="nn">pygame</span><span class="o">,</span> <span class="nn">sys</span>
+            <span class="kn">import</span> <span class="nn">pygame</span><span class="o">,</span> <span class="nn">sys</span>
             <span class="kn">from</span> <span class="nn">pygame.locals</span> <span class="kn">import</span> <span class="n">Rect</span>
-            <span class="kn">import</span> <span class="nn">random</span></pre>
+            <span class="kn">import</span> <span class="nn">random</span>
         </div>
         <p>Ensuite ont initialise <code>pygame</code> ainsi que toutes les variables avec leurs types</p>
         <div class="highlight">
-            <pre><span class="n">pygame</span><span class="o">.</span><span class="n">init</span><span class="p">()</span>
+            <span class="n">pygame</span><span class="o">.</span><span class="n">init</span><span class="p">()</span>
             <span class="n">size</span> <span class="o">=</span> <span class="n">width</span><span class="p">,</span> <span class="n">height</span> <span class="o">=</span> <span class="mi">400</span><span class="p">,</span> <span class="mi">400</span>
             <span class="n">screen</span> <span class="o">=</span> <span class="n">pygame</span><span class="o">.</span><span class="n">display</span><span class="o">.</span><span class="n">set_mode</span><span class="p">(</span><span class="n">size</span><span class="p">)</span>
             <span class="n">pygame</span><span class="o">.</span><span class="n">display</span><span class="o">.</span><span class="n">set_caption</span><span class="p">(</span><span class="s2">&quot;Snake&quot;</span><span class="p">)</span>
@@ -42,7 +42,7 @@
             <span class="n">lenght</span><span class="p">:</span><span class="nb">int</span>
             <span class="n">allowAction</span><span class="p">:</span><span class="nb">bool</span>
             <span class="n">WHITE</span><span class="p">:</span><span class="nb">tuple</span><span class="p">[</span><span class="nb">int</span><span class="p">,</span><span class="nb">int</span><span class="p">,</span><span class="nb">int</span><span class="p">]</span> <span class="o">=</span> <span class="p">(</span><span class="mi">255</span><span class="p">,</span><span class="mi">255</span><span class="p">,</span><span class="mi">255</span><span class="p">)</span>
-            <span class="n">BLACK</span><span class="p">:</span><span class="nb">tuple</span><span class="p">[</span><span class="nb">int</span><span class="p">,</span><span class="nb">int</span><span class="p">,</span><span class="nb">int</span><span class="p">]</span> <span class="o">=</span> <span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">)</span></pre>
+            <span class="n">BLACK</span><span class="p">:</span><span class="nb">tuple</span><span class="p">[</span><span class="nb">int</span><span class="p">,</span><span class="nb">int</span><span class="p">,</span><span class="nb">int</span><span class="p">]</span> <span class="o">=</span> <span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">)</span>
         </div>
     </body>
 </html>
