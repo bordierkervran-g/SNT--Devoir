@@ -29,6 +29,15 @@ header {
     border-left: #535353 2px solid;
     border-top: #535353 2px solid;
 }
+header a {
+    display: flex;
+    gap: 10px;
+    border: 2px #434343 solid;
+    border-radius: 100px;
+    padding: 5px;
+    flex-direction: row;
+    align-items: center;
+}
 .cursor {
     z-index: 0;
     position: absolute;
