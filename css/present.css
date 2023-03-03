@@ -13,3 +13,10 @@ code {
 pre {
     margin: 0;
 }
+
+a {
+    color: #ccc;
+}
+a:visited {
+    color: #4593eb;
+}
