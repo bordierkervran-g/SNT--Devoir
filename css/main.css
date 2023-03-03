@@ -38,13 +38,14 @@ header {
     background-color: #eee;
     border-radius: 10px;
     margin-left: var(--M);
-    transition: all 0.2s ease-in-out;
+    transition: all 0.2s cubic-bezier(0, 4.21, 0.89, -0.18);
 }
 header:hover > .cursor {
     width: calc(var(--W) + 20px);
     margin-left: calc(var(--M) - 10px);
     border-radius: 100px;
     height: 52px;
+    transition: all 0.2s cubic-bezier(0.18, 0.89, 0.32, 1.28);
 }
 span:not(.cursor) {
     z-index: 1;
